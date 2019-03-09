@@ -5,8 +5,7 @@ body {
     display: block;
 }
 body {
-    background: url("/~/assets/images/Cat.jpg");
-    background-size: cover;
+    background: url("../images/white-waves.png");
 }
 .font-weight-bold{
     font-family: 'Times New Roman', Times, serif;
