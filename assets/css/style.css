@@ -2,22 +2,48 @@ html,
 body {
     width: 100%;
     height: 100%;
+    display: block;
+}
+body {
+    background: url("/~/assets/images/Cat.jpg");
+    background-size: cover;
+}
+.font-weight-bold{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
 }
 
-.bgimage {
-    background-image:url("/assets/images/white-waves.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 .img-fluid{
     max-width: 100%;
     height: auto;
 } 
-.navbar {
-    background: #4aaaa5;
+.container-fluid{
+    margin-bottom: 2%;
+}
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0;
+    padding-top: 2%;
+}
+#nbarcol1{
+    margin-right: -15px;
+}
+#nbarcol2 {
+    margin-left: -15px;
+}
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 1%;
+}
+.a {
+    color: #cccccc;
+    display: inline-block;
+    float: right;
+}
+#pagelinks {
+    float: right;
 }
 #contentbox {
     background: white;
@@ -36,7 +62,6 @@ body {
 #profile {
     float: left;
     margin-right: 2%;
-
 }
 #aboutme{
     color: #4aaaa5;
@@ -45,7 +70,14 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+.footer {
+        height: 8%;
+        background-color: #666666;
+        border-top: 5px solid;
+        border-color: #4aaaa5;    
+}
 
-@media screen and (max-width: 768px) {
-    
+
+@media only and screen(max-width: 770px) {
+
 }
